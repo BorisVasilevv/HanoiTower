@@ -1,0 +1,36 @@
+﻿<Window x:Class="AlgorithmComplexity.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AlgorithmComplexity"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="grid1" Background="Gray">
+
+
+        <Canvas x:Name="canvas1" Background="LightGray" Height="450" Width="800"/>
+
+        <Rectangle x:Name="RectDown1" Height="10" Width="150" Fill="Brown" HorizontalAlignment="Left" Stroke="Brown"
+                   VerticalAlignment="Top" Margin="100,300,0,0" Panel.ZIndex="1"/>
+        <Rectangle x:Name="RectVert1" Height="200" Width="10" Fill="Brown" HorizontalAlignment="Left" Stroke="Brown"
+                   VerticalAlignment="Top" Margin="170,100,0,0" Panel.ZIndex="0"/>
+
+
+        <Rectangle x:Name="RectDown2" Height="10" Width="150" Fill="Brown" HorizontalAlignment="Left" Stroke="Brown"
+                   VerticalAlignment="Top" Margin="350,300,0,0" Panel.ZIndex="1"/>
+        <Rectangle x:Name="RectVert2" Height="200" Width="10" Fill="Brown" HorizontalAlignment="Left" Stroke="Brown" 
+                   VerticalAlignment="Top" Margin="420,100,0,0" Panel.ZIndex="1"/>
+
+        <Rectangle x:Name="RectDown3" Height="10" Width="150" Fill="Brown" HorizontalAlignment="Left" Stroke="Brown"
+                   VerticalAlignment="Top" Margin="600,300,0,0" Panel.ZIndex="1"/>
+        <Rectangle x:Name="RectVert3" Height="200" Width="10" Fill="Brown" HorizontalAlignment="Left" Stroke="Brown"
+                   VerticalAlignment="Top" Margin="670,100,0,0" Panel.ZIndex="1"/>
+        <Button x:Name="start_button" Content="start" Height="20" Width="50" HorizontalAlignment="Left" 
+                VerticalAlignment="Top" Margin="80,350,0,0" Click="start_button_Click"/>
+        <Button x:Name="next_button" Content="next" Height="20" Width="50" HorizontalAlignment="Left" 
+                VerticalAlignment="Top" Margin="230,350,0,0" Click="next_button_Click"/>
+
+
+    </Grid>
+</Window>
