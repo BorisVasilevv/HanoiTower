@@ -30,6 +30,10 @@
                 VerticalAlignment="Top" Margin="80,350,0,0" Click="start_button_Click"/>
         <Button x:Name="next_button" Content="next" Height="20" Width="50" HorizontalAlignment="Left" 
                 VerticalAlignment="Top" Margin="230,350,0,0" Click="next_button_Click"/>
+        <Button x:Name="automatically_button" Content="automatically" Height="20" Width="100" HorizontalAlignment="Left" 
+                VerticalAlignment="Top" Margin="380,350,0,0" Click="automatically_button_Click"/>
+        <Button x:Name="exit_button" Content="exit" Height="20" Width="50" HorizontalAlignment="Left" 
+                VerticalAlignment="Top" Margin="580,350,0,0" Click="exit_button_Click"/>
 
 
     </Grid>
