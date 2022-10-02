@@ -13,19 +13,20 @@
 
         <Rectangle x:Name="RectDown1" Height="10" Width="150" Fill="Brown" HorizontalAlignment="Left" Stroke="Brown"
                    VerticalAlignment="Top" Margin="100,300,0,0" Panel.ZIndex="1"/>
-        <Rectangle x:Name="RectVert1" Height="200" Width="10" Fill="Brown" HorizontalAlignment="Left" Stroke="Brown"
-                   VerticalAlignment="Top" Margin="170,100,0,0" Panel.ZIndex="0"/>
+        <Rectangle x:Name="RectVert1" Height="230" Width="10" Fill="Brown" HorizontalAlignment="Left" Stroke="Brown"
+                   VerticalAlignment="Top" Margin="170,70,0,0" Panel.ZIndex="0"/>
 
 
         <Rectangle x:Name="RectDown2" Height="10" Width="150" Fill="Brown" HorizontalAlignment="Left" Stroke="Brown"
                    VerticalAlignment="Top" Margin="350,300,0,0" Panel.ZIndex="1"/>
-        <Rectangle x:Name="RectVert2" Height="200" Width="10" Fill="Brown" HorizontalAlignment="Left" Stroke="Brown" 
-                   VerticalAlignment="Top" Margin="420,100,0,0" Panel.ZIndex="1"/>
+        <Rectangle x:Name="RectVert2" Height="230" Width="10" Fill="Brown" HorizontalAlignment="Left" Stroke="Brown" 
+                   VerticalAlignment="Top" Margin="420,70,0,0" Panel.ZIndex="1"/>
 
         <Rectangle x:Name="RectDown3" Height="10" Width="150" Fill="Brown" HorizontalAlignment="Left" Stroke="Brown"
                    VerticalAlignment="Top" Margin="600,300,0,0" Panel.ZIndex="1"/>
-        <Rectangle x:Name="RectVert3" Height="200" Width="10" Fill="Brown" HorizontalAlignment="Left" Stroke="Brown"
-                   VerticalAlignment="Top" Margin="670,100,0,0" Panel.ZIndex="1"/>
+        <Rectangle x:Name="RectVert3" Height="230" Width="10" Fill="Brown" HorizontalAlignment="Left" Stroke="Brown"
+        <Rectangle x:Name="RectVert3" Height="230" Width="10" Fill="Brown" HorizontalAlignment="Left" Stroke="Brown"
+                   VerticalAlignment="Top" Margin="670,70,0,0" Panel.ZIndex="1"/>
         <Button x:Name="start_button" Content="start" Height="20" Width="50" HorizontalAlignment="Left" 
                 VerticalAlignment="Top" Margin="80,350,0,0" Click="start_button_Click"/>
         <Button x:Name="next_button" Content="next" Height="20" Width="50" HorizontalAlignment="Left" 
